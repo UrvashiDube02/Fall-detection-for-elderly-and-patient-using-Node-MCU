@@ -23,13 +23,13 @@ Hardware needed :
 
 Software needed : 
 
-1.Arduino IDE 
-2.IFTTT
-3.Other equipments: 3.1.Connecting wires 
-2.LED 
-3.Switch 
-4.Bred board 
-5.Lithium ion battery
+1. Arduino IDE 
+2. IFTTT
+3. Other equipments: 3.1.Connecting wires 
+2. LED 
+3. Switch 
+4. Bred board 
+5. Lithium ion battery
 
 ![image](https://user-images.githubusercontent.com/87383888/125567591-9fc4d76e-aec0-4639-9c6d-74a8f8e27bc6.png)
 
@@ -44,8 +44,10 @@ Software needed :
 The purpose of this literature review is to systematically assess the current state of design and implementation of fall detection devices. It also examines the extent to which 
 these devices have been tested in the real world as well as the acceptability of these devices to older adults. A wearable device can detect the elderly's falling by acceleration analysis. Then it will get the elderly's geographic position and send fall alarm short message to caregivers. So the elderly who has fallen can get timely help to minimize the negative influence. 
 
-Coordinate and gravity before and after falling. 
+Coordinate and gravity before and after falling:
+
 (a) Before falling. 
+
 (b) After falling.
 
 ![image](https://user-images.githubusercontent.com/87383888/125567712-6534cd2a-3907-4a43-8aca-575b5068961d.png)
@@ -75,9 +77,7 @@ The microcontroller (NodeMCU) is connected to MPU6050 (accelerometer and gyrosco
 
 **OBSERVATION**
 
-When acceleration is above the threshold limit, the LED turns on and as a result of that an SMS is sent to the specified mobile numbers stating the immediate requirement of attention to the user. 
-
-Before the acceleration reaches the threshold
+When acceleration is above the threshold limit, the LED turns on and as a result of that an SMS is sent to the specified mobile numbers stating the immediate requirement of attention to the user. Before the acceleration reaches the threshold
 
 ![image](https://user-images.githubusercontent.com/87383888/125567907-2ebfa893-1e35-4a29-90a0-15c4fcfcb860.png)
 
